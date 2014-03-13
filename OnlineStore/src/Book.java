@@ -8,17 +8,14 @@ public class Book extends Product
         author = "";
         addCount();
     }
-
     public void setAuthor(String author)
     {
         this.author = author;
     }
-
     public String getAuthor()
     {
         return author;
     }
-
     public String toString()
     {
         return super.toString() +
